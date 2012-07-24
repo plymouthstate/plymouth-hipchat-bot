@@ -1,7 +1,7 @@
 // It's a trap
 
 module.exports.load = function( bot ) {
-    bot.onMessage(/([^ ]*\s|^)trap(\s+|$)/i, onMessage);
+    bot.onMessage(/([^ ]*[\s\(\[]|^)trap(ping)?([\s\)\]]+|$)/i, onMessage);
 };
 
 var onMessage = function( channel, from, message, matches ) {

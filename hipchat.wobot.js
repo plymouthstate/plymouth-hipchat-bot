@@ -11,10 +11,12 @@ var plugins = [
       'ackbar'
     , 'bork'
     , 'codereview'
+    , 'commands'
     , 'roll'
     , 'tickets'
     , 'trac'
     , 'weather'
+    , 'github'
 ];
 
 // initialize the plugins
